@@ -3,7 +3,7 @@ layout: post
 title: Rewriting
 ---
 
-[Github link](https://github.com/stuffofminsun/CongressMapping)
+https://github.com/stuffofminsun/CongressMapping
 
 As alluded to earlier, I recently decided to pick up python, mostly to try it out for data science related items, but also partly as an excuse to consolidate a lot of random code snippets I wrote over the years for this or that minor project at work. I went through Cousera's Python Basics, which covers a lot of the basic syntax, and then rewrote a script I did in Java that, given a set of latitude/longitude points, would look through Census' shapefiles and return either congressional district, state upper legislative district, or state lower legislative district. Special attention would have to be paid to US territories, however, (e.g., Puerto Rico, Virgin Islands, Northern Marinara Islands, Guam, and American Samoa) as I had addresses within those territories and would include them in the US total, but these might not necessarily have a congressional district, state lower district, or state upper district.
 
