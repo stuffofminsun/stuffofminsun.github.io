@@ -1,23 +1,25 @@
 # Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
 
 # Setup
-title:            much stuff
-tagline:          many stuff
-description:      'A page of stuff. I'm not that imaginative with urls.'
-url:              http://www.stuffofminsun.com
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
 baseurl:          /
 
 author:
-  name:           'Minsun'
-  url:            
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
 paginate:         5
 
 # Custom vars
-version:          
+version:          2.1.0
 
 github:
-  repo:           https://github.com/stuffofminsun
+  repo:           https://github.com/poole/hyde
