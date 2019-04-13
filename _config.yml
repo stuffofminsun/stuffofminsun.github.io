@@ -9,8 +9,8 @@ permalink:        pretty
 title:            'stuff of minsun'
 tagline:          'more stuff'
 description:      'many stuff'
-url:              http://www.stuffofminsun.com
-baseurl:          http://www.stuffofminsun.com/
+url:              https://www.stuffofminsun.com
+baseurl:          https://www.stuffofminsun.com/
 
 author:
   name:           'Minsun'
