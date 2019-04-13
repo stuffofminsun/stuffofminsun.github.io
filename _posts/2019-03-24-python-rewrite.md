@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Rewriting
-categories: [python]
 ---
 
 [Github link](https://github.com/stuffofminsun/CongressMapping)

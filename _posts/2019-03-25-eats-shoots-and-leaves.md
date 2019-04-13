@@ -1,7 +1,6 @@
 ---
 layout: post
 title: eats, shoots and leaves
-categories: [python, coursera]
 ---
 
 I have discovered the ~~magic~~ teeth grinding frustration of pandas. I can certainly see how it is a very useful tool, and can do a great many things, but I'm at the stage where I know just barely enough to run it and every execution takes me many, many more minutes than what it would've taken me in a sql statement or, heck, excel, in seconds if it was a small enough file.
