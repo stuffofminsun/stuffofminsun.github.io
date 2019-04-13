@@ -10,7 +10,7 @@ title:            'stuff of minsun'
 tagline:          'more stuff'
 description:      'many stuff'
 url:              https://www.stuffofminsun.com
-baseurl:          https://www.stuffofminsun.com/
+baseurl:          /
 
 author:
   name:           'Minsun'
