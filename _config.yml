@@ -6,15 +6,15 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            stuffofminsun
+title:            'stuff of minsun'
 tagline:          'more stuff'
 description:      'many stuff'
 url:              http://www.stuffofminsun.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Minsun'
+  url:            
 
 paginate:         5
 
