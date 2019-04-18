@@ -7,6 +7,8 @@ It took a few hours, but I managed to launch the <a href="https://minsun-abs.her
 
 I guess I should sit down to edit the css file - I'm using the default css that the plotly starts with - so I don't have to be messing so much with css attributes within python script. Reading css embedded in other things always gives me a headache - I ended up breaking the dash debug server over a missing comma 99% of the time.
 
+Now that I'm a lot more comfortable with pandas generally, I very much enjoy working with dataframes now. I guess the only thing I'm still having trouble with is when I have to process in chunks or how to deal with python's sort of nonexistant garbage collection, but practice makes perfect...
+
 <iframe src="https://minsun-abs.herokuapp.com/" allowfullscreen="allowfullscreen" width="800" height="800"></iframe>
 
 
