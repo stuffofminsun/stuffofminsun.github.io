@@ -7,7 +7,7 @@ It took a few hours, but I managed to launch the <a href="https://minsun-abs.her
 
 I guess I should sit down to edit the css file - I'm using the default css that the plotly starts with - so I don't have to be messing so much with css attributes within python script. Reading css embedded in other things always gives me a headache - I ended up breaking the dash debug server over a missing comma 99% of the time.
 
-<iframe src="https://minsun-abs.herokuapp.com/" frameborder=0 allowfullscreen="allowfullscreen" width="800" height="500"></iframe>
+<iframe src="https://minsun-abs.herokuapp.com/" allowfullscreen="allowfullscreen" width="800" height="500"></iframe>
 
 
 
