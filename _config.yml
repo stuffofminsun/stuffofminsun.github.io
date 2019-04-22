@@ -24,8 +24,8 @@ version:          2.1.0
 github:
 timezone:         America/New_York
 
+# Analytics
 analytics:
-  provider:      'google-gtag'
+  provider:               "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id: 'UA-138680040-1'
-    anonymize_ip:false
+    tracking_id:          UA-138680040-1
