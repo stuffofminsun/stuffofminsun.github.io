@@ -5,6 +5,11 @@ title: Projects
 
 My projects page. Mostly for visualizations and the like. In date order, most recent first.
 
+### 2019-04-22
+## <a href="https://minsun-muni.herokuapp.com/">U.S. Municipal Loans Held by Commercial Banks (2000-2018) (dash/plot.ly, heroku)</a>
+
+A visualization of municipal loans held by U.S. commercial banks, ranked by bank holdings. From the period from 2000 to the end of 2018, quarterly. Some brief additional discussion here.
+
 ### 2019-04-18
 ## <a href="https://minsun-abs.herokuapp.com/">U.S. Asset Backed Securities Outstanding Visualization (dash/plot.ly, heroku)</a>
 
