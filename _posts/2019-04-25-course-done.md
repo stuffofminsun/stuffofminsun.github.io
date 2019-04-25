@@ -1,0 +1,8 @@
+---
+layout: post
+title: course done
+---
+
+Finally finished the last course in the python 3 specialization on Coursera, which opened earlier this week. Took me a lot longer to finish this one mostly because the last assignment was so slow to run off the Coursera jupyter notebooks that I finally gave in and did it locally. Which then forced me to uninstall my entire python package because opencv kept throwing errors - I was previously on a 32-bit install and finally switched to a 64-bit install. Took the opportunity on a fresh install to switch to using anaconda for package management, and after a few hiccups, got everything rolling again. Even the change in pycharm was seamless. It was *definitely* easier to manage the more troublesome packages, that's for sure. Oddly, I can't seem to fire up jupyter notebook on a .ipynb file anymore without having to go through the command line in Win10 even after messing with default executables, but I guess I'll work out how to fix that later. Using the command line isn't all that difficult, so it's not a huge loss.
+
+Got to play with pytesseract for this course, and OCR is pretty handy for some projects I have in mind, so may continue to play around with it some more. Pillow and opencv is interesting for images and trying out some of the face classifiers was fun, but seeing that I don't do much or have much ideas to work with on either, but not sure what I'd do with them afterwards. 
