@@ -47,7 +47,7 @@ Yet again, region must be specified, and session token is optional.
 
 ## Setting up AWS credentials with Heroku
 
-You can be very lazy and just pass your keys into your program intact but that's probably a terrible idea, so instead you should set up your keys as a Heroku environment variable instead, either either through their <a href="https://devcenter.heroku.com/articles/config-vars">CLI or just popping them in the dashboard under an app's settings</a>. You can check your variables in settings on the dashboard or typing in this on the command line to check that they're there: 
+You can be very lazy and just pass your keys into your program intact but that's probably a terrible idea. You could set up your keys as a Heroku environment variable instead, either setting them through their <a href="https://devcenter.heroku.com/articles/config-vars">CLI or just popping them in the dashboard under an app's settings</a>. You can check your variables in settings on the dashboard or typing in this on the command line to check that they're there: 
 
 ```
 heroku config --app YOUR_APP_NAME
