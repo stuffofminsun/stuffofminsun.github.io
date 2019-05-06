@@ -5,12 +5,12 @@ title: dynamodb and heroku setup
 
 Managed to currently hook the first set of charts from <a href="https://minsun-agencytrading.herokuapp.com/">my visualization</a>a> to pull from AWS' DynamoDB instead of from a stored csv file. Spent most of the day cleaning up code to be a little more future proof (some of the visuals hard code the mortgage coupons instead of just looking at the table headers, something not a particularly good idea when the Fed keeps moving rates up 25 bps at a time), cleaning up some of the visuals (now every agency has their own specific color!), running the code against a full year and a half of data, and setting up Heroku to pull data from DynamoDB. The remaining few charts haven't been migrated to DynamoDB yet since I've been busy writing the data to the database verrrryyyy slowly... I set the write and read capacity down to 2 for each table, much to my horror and regret, and am too lazy to stop it since it'll finish overnight anyway. Once that works, plan on working through AWS Data Pipeline and get the web scraping part of all this all automated.
 
-Getting DynamoDB to work with Heroku is, oddly enough, split up across a lot of different websites and docs. The long and short of it is, which I'm writing for others as well as for myself so I don't have to google all day on this again:
+Getting DynamoDB to work with Heroku is, oddly enough, not that obvious. I found the info split up across a lot of different websites and docs. The long and short of it is, which I'm writing for others as well as for myself so I don't have to google all day on this again:
 
 ## Accessing DynamoDB from python: 
 
 There are two main ways to access DynamoDB tables in python, either through Client or Resource. Probably if you've been messing with it like I have and followed <a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Python.html">Amazon's getting started guide</a>a>, you've been using boto3.resource() instead. <a href="
-https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#client">boto3.client()</a>a> does something similar to resource, but queries are structured ever so slightly differently, as are results. 
+https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#client">boto3.client()</a>a> does something similar to resource, but queries are structured ever so slightly differently, as are results. Different enough that it'd be a hassle to rewrite code you've already started, anyway.
 
 In any case, if you use client to manipulate the DynamoDB database, you can pass the credentials directly:
 
