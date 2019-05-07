@@ -11,8 +11,8 @@ Getting DynamoDB to work with Heroku is, oddly enough, not that obvious. I found
 
 ## Accessing DynamoDB from python: 
 
-There are two main ways to access DynamoDB tables in python, either through Client or Resource. Probably if you've been messing with it like I have and followed <a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Python.html">Amazon's getting started guide</a>a>, you've been using boto3.resource() instead. <a href="
-https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#client">boto3.client()</a>a> does something similar to resource, but queries are structured ever so slightly differently, as are results. Different enough that it'd be a hassle to rewrite code you've already started, anyway.
+There are two main ways to access DynamoDB tables in python, either through Client or Resource. Probably if you've been messing with it like I have and followed <a href="https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.Python.html">Amazon's getting started guide</a>, you've been using boto3.resource() instead. <a href="
+https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/dynamodb.html#client">boto3.client()</a> does something similar to resource, but queries are structured ever so slightly differently, as are results. Different enough that it'd be a hassle to rewrite code you've already started, anyway.
 
 In any case, if you use client to manipulate the DynamoDB database, you can pass the credentials directly:
 
