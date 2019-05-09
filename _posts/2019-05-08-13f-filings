@@ -1,0 +1,10 @@
+---
+layout: post
+title: dynamodb and 13F
+---
+
+Finally hooked all the charts in the visualization to DynamoDB. The startup to the visualization is a little bit slower because of it, but all in all, it's nice to be able to automate this part. The visual does a 6 month rolling period that updates based on today's date. May fiddle with that slightly because FINRA does only provide the data once a month, which means upwards to a month is rolling off without update in the meantime. 
+
+The next step is working with automating the data pull, probably through AWS data pipelines.
+
+I started working on a scraper for 13F-HR filings (those are the securities holdings), and (mostly) finished grabbing a day's worth of filings from SEC Edgar. The next step is probably automating the collection through a daily cron job (probably Heroku judging on how many dynos I have left per month), dumping it into DynamoDB, and then examining the data when I feel reasonably confident I have most of first quarter 2019 data (or just waiting until second quarter). Judging from the state of these filings, though, there is a *lot* of cleanup to be done. No consistency to any of the fields except for possibly the CUSIP field and not even then. I had been planning on putting together maybe a small visualization that'd pull together the data from a single day's filings but am not so sure after looking at the state of the fields. I'd have to drop a lot of fields or simply use a very tiny (relatively clean) subset.

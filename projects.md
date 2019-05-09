@@ -8,8 +8,7 @@ My projects page. Mostly for visualizations and the like. In date order, most re
 ### 2019-05-02
 ## <a href="https://minsun-agencytrading.herokuapp.com/">U.S. Agency Trading Volumes and TBA Prices (2019) (dash/plot.ly, Heroku, DynamoDB)</a>
 
-A visualization of the US agency trading market. 
-Discussion located here: <a href="https://www.stuffofminsun.com/2019/05/02/etl-pipelines/">Part 1</a>, <a href="https://www.stuffofminsun.com/2019/05/06/dynamodb-heroku-config/">Part 2</a>
+A visualization of the US agency trading market. Discussion located here: <a href="https://www.stuffofminsun.com/2019/05/02/etl-pipelines/">Part 1</a>, <a href="https://www.stuffofminsun.com/2019/05/06/dynamodb-heroku-config/">Part 2</a>
 
 ### 2019-04-22
 ## <a href="https://minsun-muni.herokuapp.com/">U.S. Municipal Loans Held by Commercial Banks (2000-2018) (dash/plot.ly, Heroku)</a>
