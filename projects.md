@@ -8,7 +8,7 @@ My projects page. Mostly for visualizations and the like. In date order, most re
 ### 2019-05-28
 ## <a href="https://minsun-bd.herokuapp.com/">Change in Number of Broker-Dealers in the United States, 2007 - 2018 (dash/plot.ly, Heroku, Mapbox)</a>
 
-A visualization on the changes in the number of broker-dealers headquartered in specific counties. Uses the 2018 Census shapes. Discussion located here: <a href=">Part 1</a>, <a href="https://github.com/stuffofminsun/Dash-BD">Git Repository</a>
+A visualization on the changes in the number of broker-dealers headquartered in specific counties. Uses the 2018 Census shapes. Discussion located here: <a href="https://www.stuffofminsun.com/2019/05/24/mapbox-stories/">Part 1</a>, <a href="https://github.com/stuffofminsun/Dash-BD">Git Repository</a>
 
 ### 2019-05-02
 ## <a href="https://minsun-agencytrading.herokuapp.com/">U.S. Agency Trading Volumes and TBA Prices (2019) (dash/plot.ly, Heroku, DynamoDB, apscheduler+redis)</a>
