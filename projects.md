@@ -5,6 +5,11 @@ title: Projects
 
 My projects page. Mostly for visualizations and the like. In date order, most recent first.
 
+### 2019-05-30
+## <a href="https://minsun-13f.herokuapp.com/">13F Securities Holdings, Last 7 Days (dash/plotly, MongoDB, redis/apscheduler)</a>
+
+A visualization on securities holdings filed by institutional investment managers. Provides data filed in SEC EDGAR from the last days. Discussion located here: <a href="https://www.stuffofminsun.com/2019/05/29/13f-fixes/">Part 1</a>, <a href="https://github.com/stuffofminsun/13F">Git Repository</a>
+
 ### 2019-05-28
 ## <a href="https://minsun-bd.herokuapp.com/">Change in Number of Broker-Dealers in the United States, 2007 - 2018 (dash/plot.ly, Heroku, Mapbox)</a>
 
