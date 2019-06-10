@@ -5,6 +5,11 @@ title: Projects
 
 My projects page. Mostly for visualizations and the like. In date order, most recent first.
 
+### 2019-06-10
+## <a href="https://app.powerbi.com/view?r=eyJrIjoiMTU2ZDg5NTItYTZiOC00YWRmLWIwMzUtZTU4Yjc0YzljMGU4IiwidCI6ImY1ZGY0YzdmLTA1YjMtNDQzYi04MjZkLTk1YzQxYWFkMTQyYiIsImMiOjN9">State Level Statistics for Broker Dealers and RIAs (mapbox, PowerBI)</a>
+
+A choropleth map with some assorted statistics on the broker-dealer and RIA industry, in PowerBI. Fair warning, this WON'T display in your browser if you use the LastPass extention (which I do) - there is a known bug with Mapbox/PowerBI and LastPass, of all things. 
+
 ### 2019-05-30
 ## <a href="https://minsun-13f.herokuapp.com/">13F Securities Holdings, Last 7 Days (dash/plotly, MongoDB, redis/apscheduler)</a>
 
